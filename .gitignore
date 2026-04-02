@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+venv310/
+.env
+
+# Models & Large Data
+models/*.pt
+models/*.dat
+models/*.bin
+data/*.db
+data/*.sqlite
+
+# Logs & Debug
+logs/*.log
+*.log
+*.tmp
+mp_install.log
+pip_error.log
+PyWhatKit_DB.txt
+
+# OS
+.DS_Store
+Thumbs.db
